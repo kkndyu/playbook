@@ -1,0 +1,11 @@
+# test.yml
+---
+- hosts: vps1-qq
+  tasks:
+    - name: Run ls
+      command: ping www.baidu.com
+      register: out
+      async: 45
+      poll: 0
+
+    - debug: var=out.stdout_lines
