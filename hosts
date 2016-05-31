@@ -1,6 +1,5 @@
-vps1-qq ansible_ssh_host=123.206.29.19 ansible_ssh_user=root
-vps3-do ansible_ssh_host=104.236.191.196
-vps1-google ansible_ssh_host=104.155.239.161
-vps1-amazon ansible_ssh_host=52.193.48.72 ansible_ssh_user=root
-vps1-ali ansible_ssh_host=120.25.89.28
-t440-home  ansible_ssh_host=104.155.239.161 ansible_ssh_port=3687
+vps1-qq ansible_ssh_host=q.kkndyu.com ansible_ssh_user=root
+vps3-do ansible_ssh_host=d.kkndyu.com
+vps1-google ansible_ssh_host=g.kkndyu.com
+vps1-amazon ansible_ssh_host=z.kkndyu.com ansible_ssh_user=root
+t440-home  ansible_ssh_host=q.kkndyu.com ansible_ssh_port=3687
